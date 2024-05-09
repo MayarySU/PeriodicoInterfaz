@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block cuerpo %}
+
+<div class="container mt-3">
+    <h1>Noticias</h1>
+    <a href="{% url 'agregar_noticia' %}" class="btn btn-primary">Agregar Noticia</a>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Eliminar</th>
+                <th>Editar</th>
+                <th>Titulo</th>
+                <th>Fecha de Publicación</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for noticia in noticias %}
+            <tr>
+          <tr>
+    <td>
+        <a href="{% url 'eliminar_noticia' noticia.id %}">
+            <img width="32" height="32" src="https://img.icons8.com/fluency/32/delete-sign.png" alt="delete-sign" />
+        </a>
+    </td>
+    <td>
+        <a href="{% url 'editar_noticia' noticia.id %}" class="btn btn-primary btn-sm">Editar</a>
+    </td>
+    <td>{{ noticia.titulo }}</td>
+    <td>{{ noticia.fecha_publicacion }}</td>
+</tr>
+{% endfor %}
+</tbody>
+    </table>
+</div>
+
+{% endblock %}

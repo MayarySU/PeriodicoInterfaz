@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block cuerpo %}
+<div class="container mt-3">
+  <h2>Editar Noticia</h2>
+<form method="post">
+    {% csrf_token %}
+    <div class="mb-3">
+        <label for="titulo" class="form-label">Título</label>
+        <input type="text" class="form-control" id="titulo" name="titulo" value="{{ noticia.titulo }}">
+    </div>
+    <div class="mb-3">
+        <label for="contenido" class="form-label">Contenido</label>
+        <textarea class="form-control" id="contenido" name="contenido" rows="6">{{ noticia.contenido }}</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a href="{% url 'noticias' %}" class="btn btn-primary btn-sm">Volver</a>
+</form>
+
+
+
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dff17f8f-309c-4a1c-9c53-20a896216f50" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2d0TWywY7QhFf3vjTIQde5PFJk0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.Periodico.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "last_opened_file_path": "/home/lbeltran/Dropbox/0-ITESCA/Residencias/code/BackEnd-Certification-ISC/BackEndC",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\belma\Dropbox\1-Materias\LenguajeInterfaz\code\2024\Periodico\noticia\templates\reportero" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Periodico" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Periodico" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Periodico.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dff17f8f-309c-4a1c-9c53-20a896216f50" name="Changes" comment="" />
+      <created>1709144032240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709144032240</updated>
+      <workItem from="1709144047538" duration="2268000" />
+      <workItem from="1709224536428" duration="15000" />
+      <workItem from="1709230029879" duration="3040000" />
+      <workItem from="1709234039243" duration="9000" />
+      <workItem from="1709575493946" duration="2698000" />
+      <workItem from="1709579357616" duration="15000" />
+      <workItem from="1709656021089" duration="1526000" />
+      <workItem from="1709662246350" duration="2876000" />
+      <workItem from="1709665919735" duration="10000" />
+      <workItem from="1709829061617" duration="884000" />
+      <workItem from="1710205632568" duration="2837000" />
+      <workItem from="1710209197971" duration="14000" />
+      <workItem from="1710260254306" duration="1417000" />
+      <workItem from="1710266899352" duration="3309000" />
+      <workItem from="1710270979957" duration="33000" />
+      <workItem from="1710353330384" duration="3100000" />
+      <workItem from="1710357136645" duration="29000" />
+      <workItem from="1710363798334" duration="230000" />
+      <workItem from="1710872154623" duration="2735000" />
+      <workItem from="1710875680754" duration="109000" />
+      <workItem from="1710977048262" duration="639000" />
+      <workItem from="1710958378599" duration="2307000" />
+      <workItem from="1710962950748" duration="55000" />
+      <workItem from="1712625902282" duration="1769000" />
+      <workItem from="1712632744694" duration="97000" />
+      <workItem from="1712797791927" duration="2872000" />
+      <workItem from="1713402738123" duration="2492000" />
+      <workItem from="1713489237459" duration="2251000" />
+      <workItem from="1713914122296" duration="634000" />
+      <workItem from="1713921202002" duration="2610000" />
+      <workItem from="1713990646252" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

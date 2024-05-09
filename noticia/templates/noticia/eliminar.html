@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block cuerpo %}
+<div class="container mt-3">
+    <h2 class="text-danger">Confirmar Eliminación</h2>
+    <div class="card border-danger">
+        <div class="card-body">
+            <p class="text-danger">¿Estás seguro de que quieres eliminar esta noticia?</p>
+            <p><strong>Título:</strong> {{ noticia.titulo }}</p>
+            <p><strong>Fecha de Publicación:</strong> {{ noticia.fecha_publicacion }}</p>
+            <form method="post">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">Eliminar</button>
+                <a href="{% url 'noticias' %}" class="btn btn-secondary">Cancelar</a>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

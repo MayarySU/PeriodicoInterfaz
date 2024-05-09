@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block cuerpo %}
+
+{% if form.errors %}
+    <div class="w3-panel w3-yellow w3-card-4 w3-round-xlarge">  
+<p>Tu username y password no coinciden. Intenta otra vez.</p>
+    </div>
+    {% for error in form.errors %}
+        <div class="w3-panel w3-orange w3-card-4 w3-round-xlarge"> 
+        <p>{{ error }}</p>
+        </div>
+    {% endfor %}
+{% endif %}
+
+{% if next %}
+    {% if user.is_authenticated %}
+    <p>Your account doesn't have access to this page. To proceed,
+    please login with an account that has access.</p>
+    {% else %}
+    <p>Please login to see this page.</p>
+    {% endif %}
+{% endif %}
+
+<form method="post" action="{% url 'login' %}">
+{% csrf_token %}
+<table>
+<tr>
+    <td>{{ form.username.label_tag }}</td>
+    <td>{{ form.username }}</td>
+</tr>
+<tr>
+    <td>{{ form.password.label_tag }}</td>
+    <td>{{ form.password }}</td>
+</tr>
+</table>
+
+<input type="submit" value="login">
+<input type="hidden" name="next" value="{% url 'home' %}">
+</form>
+
+{# Assumes you set up the password_reset view in your URLconf #}
+
+{% endblock %}

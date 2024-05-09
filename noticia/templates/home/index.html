@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'templates/css/styles.css' %}">
+{% endblock %}
+
+{% block cuerpo %}
+<div class="container mt-3">
+    <div class="mt-3">
+        <h1 class="home-title">Últimas Noticias</h1>
+        {% if noticias %}
+            <ul class="home-news-list">
+                {% for noticia in noticias %}
+                   <li class="home-news-item"> <a style="font-size: 20px"><strong>Título:</strong> {{ noticia.titulo }}</a> <p> Contenido: {{ noticia.contenido }}</p> <a style="align-content: end"><i>Publicado el {{ noticia.fecha_publicacion }}</i></a> </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No hay noticias disponibles.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

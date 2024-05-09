@@ -1,0 +1,23 @@
+.home-title {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.home-news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-news-item {
+    margin-bottom: 20px;
+}
+
+.home-news-link {
+    color: #3322333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-news-link:hover {
+    color: #007bff;
+}
